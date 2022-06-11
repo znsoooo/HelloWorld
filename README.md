@@ -1,6 +1,16 @@
 # HelloWorld
-Minimalist build for a `HelloWorld` program:
+Minimalist build for a `HelloWorld` program.
 
+## Source code
+```c
+#include <stdio.h>
+int main() {
+    printf("Hello world!\n");
+    getchar();
+}
+```
+
+## Result
 | Platform | strip | upx | Size (B) |
 | :------: | :---: | :-: | :------: |
 |   x64    |   ×   |  ×  |  54,198  |
